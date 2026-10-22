@@ -1,16 +1,3 @@
-#lang racket
-;; =====================================================================
-;;  SISTEMA INTEGRAL DE GESTIÓN, CONCILIACIÓN Y LIQUIDACIÓN DE PEDIDOS
-;;  Paradigmas de Programación - Programación funcional en Racket
-;;
-;;  Principios usados en todo el programa:
-;;   - Los datos originales NUNCA se modifican (no se usa set!).
-;;   - Cada etapa (validación, selección, transformación, agrupación,
-;;     ordenamiento, acumulación y conciliación) produce NUEVAS listas
-;;     o valores a partir de las anteriores.
-;;   - Los ciclos se reemplazan por recursión, map, filter y apply.
-;; =====================================================================
-
 
 ;; =====================================================================
 ;; 1. CONSTANTES DEL NEGOCIO
